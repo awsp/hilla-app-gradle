@@ -5,6 +5,7 @@
 plugins {
     java
     `maven-publish`
+    id("org.springframework.boot") version "2.6.6"
 }
 
 repositories {
